@@ -1,0 +1,215 @@
+ticker,company_name,exchange_code,exchange_name,region,INTERNAL_StockID,CCY,ISIN,type,dividend_convention,industry_sector
+SEDG,SolarEdge Technologies Inc,NASDAQ,NASDAQ Stocks Exchange,USA,24175,USD,US83417M1045,S,,Energy-Alternate Sources
+SOXL,Direxion Daily Semiconductors Bull 3x Shares,NYSEArca,NYSE Arca Options,USA,21274,USD,US25459W4583,F,Implied yields,
+DPST,Direxion Daily Regional Banks Bull 3X Shares,NYSEArca,NYSE Arca Options,USA,26475,USD,US25460G1537,F,Implied yields,
+ENPH,Enphase Energy Inc.,NASDAQ,NASDAQ Stocks Exchange,USA,22577,USD,US29355A1079,S,,Energy-Alternate Sources
+VCYT,Veracyte Inc,NASDAQ,NASDAQ Stocks Exchange,USA,24400,USD,US92337F1075,S,,Biotechnology
+PLTR,Palantir Technologies Inc,NYSE,New York Stock Exchange,USA,26416,USD,US69608A1088,S,,Software
+SMCI,SuperMicro Computer Inc,NASDAQ,NASDAQ Stocks Exchange,USA,19504,USD,US86800U1043,S,,Computers
+FOUR,Shift4 Payments Inc,NYSE,New York Stock Exchange,USA,26196,USD,US82452J1097,S,,Commercial Services
+SE,7-ELEVEN INC,NYSE,New York Stock Exchange,USA,17011,USD,,S,,Internet
+SE,Sea Ltd,NYSE,New York Stock Exchange,USA,25291,USD,US81141R1005,S,,Internet
+SE,Spectra Energy Corp,NYSE,New York Stock Exchange,USA,19186,USD,US8475601097,S,Discrete dividends,Internet
+TNA,Direxion Daily Small Cap Bull 3X Shares,NYSEArca,NYSE Arca Options,USA,20146,USD,US25459W8477,F,Implied yields,
+SQ,Block Inc,NYSE,New York Stock Exchange,USA,24535,USD,US8522341036,S,,Commercial Services
+SHOP,Shopping.com Ltd,NASDAQ,NASDAQ Stocks Exchange,USA,18368,USD,,S,,Internet
+SHOP,Shopify Inc,NYSE,New York Stock Exchange,USA,24240,USD,CA82509L1076,S,,Internet
+TQQQ,ProShares UltraPro QQQ,NASDAQ,NASDAQ Stocks Exchange,USA,20640,USD,US74347X8314,F,Implied yields,
+DOCS,Doximity Inc,NYSE,New York Stock Exchange,USA,29461,USD,US26622P1075,S,,Software
+TSLA,Tesla Inc,NASDAQ,NASDAQ Stocks Exchange,USA,21400,USD,US88160R1014,S,,Auto Manufacturers
+GSHD,Goosehead Insurance Inc,NASDAQ,NASDAQ Stocks Exchange,USA,25545,USD,US38267D1090,S,,Insurance
+LSCC,LATTICE SEMICONDUCTOR CORP,NASDAQ,NASDAQ Stocks Exchange,USA,3758,USD,US5184151042,S,,Semiconductors
+STNE,STONECO LTD,NASDAQ,NASDAQ Stocks Exchange,USA,25666,USD,KYG851581069,S,,Commercial Services
+ELF,e.l.f. Beauty Inc,NYSE,New York Stock Exchange,USA,24901,USD,US26856L1035,S,,Cosmetics/Personal Care
+TWLO,Twilio Inc,NYSE,New York Stock Exchange,USA,24747,USD,US90138F1021,S,,Software
+AMD,Advanced Micro Devices Inc,NASDAQ,NASDAQ Stocks Exchange,USA,6512,USD,US0079031078,S,,Semiconductors
+NVDA,NVIDIA Corp,NASDAQ,NASDAQ Stocks Exchange,USA,4372,USD,US67066G1040,S,Discrete dividends,Semiconductors
+UUUU,Energy Fuels Inc,NYSEAN,NYSE Alternext Equities,USA,23545,USD,CA2926717083,S,,Mining
+LI,Li Auto Inc,NASDAQ,NASDAQ Stocks Exchange,USA,26272,USD,US50202M1027,S,,Auto Manufacturers
+LI,Laidlaw International Inc,NYSE,New York Stock Exchange,USA,18363,USD,US50730R1023,S,Discrete dividends,Auto Manufacturers
+FTNT,Fortinet Inc,NASDAQ,NASDAQ Stocks Exchange,USA,20536,USD,US34959E1091,S,,Computers
+SUPN,Supernus Pharmaceuticals Inc.,NASDAQ,NASDAQ Stocks Exchange,USA,23094,USD,US8684591089,S,,Pharmaceuticals
+UEC,Uranium Energy Corp,NYSEAN,NYSE Alternext Equities,USA,20556,USD,US9168961038,S,,Mining
+META,METATEC CORP,NASDAQ,NASDAQ Stocks Exchange,USA,3943,USD,,S,,Internet
+META,Meta Platforms Inc,NASDAQ,NASDAQ Stocks Exchange,USA,22712,USD,US30303M1027,S,Discrete dividends,Internet
+M,Macy's Inc,NYSE,New York Stock Exchange,USA,7305,USD,US55616P1049,S,Discrete dividends,Retail
+KSS,Kohl's Corp,NYSE,New York Stock Exchange,USA,7836,USD,US5002551043,S,Discrete dividends,Retail
+MDB,MongoDB Inc,NASDAQ,NASDAQ Stocks Exchange,USA,25205,USD,US60937P1066,S,,Software
+SPXL,Direxion Daily S&P 500 Bull 3X,NYSEArca,NYSE Arca Options,USA,20144,USD,US25459W8626,F,Implied yields,
+UPRO,ProShares UltraPro S&P 500,NYSEArca,NYSE Arca Options,USA,20340,USD,US74347X8645,F,Implied yields,
+GPS,The Gap Inc,NYSE,New York Stock Exchange,USA,7497,USD,US3647601083,S,Discrete dividends,Retail
+UFPT,UFP TECHNOLOGIES INC,NASDAQ,NASDAQ Stocks Exchange,USA,5925,USD,US9026731029,S,,Healthcare-Products
+PATH,UiPath Inc,NYSE,New York Stock Exchange,USA,28961,USD,US90364P1057,S,,Software
+PATH,AMERIPATH INC,NASDAQ,NASDAQ Stocks Exchange,USA,4569,USD,,S,,Software
+PATH,NuPathe Inc,NASDAQ,NASDAQ Stocks Exchange,USA,22880,USD,US67059M1009,S,,Software
+INTC,Intel Corp,NASDAQ,NASDAQ Stocks Exchange,USA,3401,USD,US4581401001,S,Discrete dividends,Semiconductors
+GFI,Gold Fields Ltd,NYSE,New York Stock Exchange,USA,17968,USD,US38059T1060,S,Discrete dividends,Mining
+DELL,Dell Technologies Inc,NYSE,New York Stock Exchange,USA,25664,USD,US24703L2025,S,Discrete dividends,Computers
+DELL,Dell Inc,NASDAQ,NASDAQ Stocks Exchange,USA,2176,USD,US24702R1014,S,Discrete dividends,Computers
+LNC,Lincoln National Corp,NYSE,New York Stock Exchange,USA,7898,USD,US5341871094,S,Discrete dividends,Insurance
+SQM,Sociedad Quimica y Minera de Chile SA,NYSE,New York Stock Exchange,USA,8823,USD,US8336351056,S,Discrete dividends,Chemicals
+TNK,Teekay Tankers Ltd,NYSE,New York Stock Exchange,USA,20255,USD,MHY8565N3002,S,Discrete dividends,Transportation
+TME,Tencent Music Entertainment Group,NYSE,New York Stock Exchange,USA,25660,USD,US88034P1093,S,,Internet
+PAGS,PagSeguro Digital Ltd,NYSE,New York Stock Exchange,USA,25410,USD,KYG687071012,S,,Diversified Finan Serv
+AAP,Advance Auto Parts Inc,NYSE,New York Stock Exchange,USA,17937,USD,US00751Y1064,S,Discrete dividends,Retail
+QCOM,QUALCOMM Inc,NASDAQ,NASDAQ Stocks Exchange,USA,4917,USD,US7475251036,S,Discrete dividends,Semiconductors
+F,Ford Motor Co,NYSE,New York Stock Exchange,USA,7282,USD,US3453708600,S,Discrete dividends,Auto Manufacturers
+AMZN,AMAZON COM INC,NASDAQ,NASDAQ Stocks Exchange,USA,1078,USD,US0231351067,S,,Internet
+VC,Visteon Corp,NASDAQ,NASDAQ Stocks Exchange,USA,21747,USD,US92839U2069,S,,Auto Parts&Equipment
+PANW,Palo Alto Networks Inc,NASDAQ,NASDAQ Stocks Exchange,USA,22851,USD,US6974351057,S,,Internet
+URA,Global X Uranium ETF,NYSEArca,NYSE Arca Options,USA,21649,USD,US37954Y8710,F,Implied yields,
+NXPI,NXP Semiconductors NV,NASDAQ,NASDAQ Stocks Exchange,USA,21513,USD,NL0009538784,S,Discrete dividends,Semiconductors
+MCHP,Microchip Technology Inc,NASDAQ,NASDAQ Stocks Exchange,USA,3872,USD,US5950171042,S,Discrete dividends,Semiconductors
+ARKK,ARK Innovation ETF,NYSEArca,NYSE Arca Options,USA,25387,USD,US00214Q1040,F,Implied yields,
+FICO,Fair Isaac Corp,NYSE,New York Stock Exchange,USA,7327,USD,US3032501047,S,Discrete dividends,Software
+HP,Helmerich & Payne Inc,NYSE,New York Stock Exchange,USA,7590,USD,US4234521015,S,Discrete dividends,Oil&Gas
+EXLS,Exlservice Holdings Inc,NASDAQ,NASDAQ Stocks Exchange,USA,19662,USD,US3020811044,S,,Computers
+NOVT,Novanta Inc,NASDAQ,NASDAQ Stocks Exchange,USA,2974,USD,CA67000B1040,S,,Electrical Compo&Equip
+NOVT,NOVOSTE CORP,NASDAQ,NASDAQ Stocks Exchange,USA,4311,USD,US67010C2098,S,,Electrical Compo&Equip
+INSW,INSWEB CORPORATION   ,NASDAQ,NASDAQ Stocks Exchange,USA,9599,USD,US45809K2024,S,,Transportation
+INSW,International Seaways Inc,NYSE,New York Stock Exchange,USA,26000,USD,MHY410531021,S,Discrete dividends,Transportation
+PHM,PulteGroup Inc,NYSE,New York Stock Exchange,USA,8441,USD,US7458671010,S,Discrete dividends,Home Builders
+NEM,Newmont Corporation,NYSE,New York Stock Exchange,USA,8186,USD,US6516391066,S,Discrete dividends,Mining
+EME,EMCOR Group Inc,NYSE,New York Stock Exchange,USA,2426,USD,US29084Q1004,S,Discrete dividends,Engineering&Construction
+MRVL,Marvell Technology Group Ltd,NASDAQ,NASDAQ Stocks Exchange,USA,11302,USD,BMG5876H1051,S,Discrete dividends,Semiconductors
+UAL,United Airlines Holdings Inc,NASDAQ,NASDAQ Stocks Exchange,USA,18742,USD,US9100471096,S,,Airlines
+AVGO,Broadcom Ltd,NASDAQ,NASDAQ Stocks Exchange,USA,20400,USD,US11135F1012,S,Discrete dividends,Semiconductors
+AVGO,AVANTGO,NASDAQ,NASDAQ Stocks Exchange,USA,15400,USD,,S,,Semiconductors
+GOOGL,Alphabet Inc [class A],NASDAQ,NASDAQ Stocks Exchange,USA,18334,USD,US02079K3059,S,,Internet
+GOOG,Alphabet Inc [class C],NASDAQ,NASDAQ Stocks Exchange,USA,23587,USD,US02079K1079,S,,Internet
+GDXJ,VanEck Junior Gold Miners ETF,NYSEArca,NYSE Arca Options,USA,20523,USD,US92189F7915,F,Implied yields,
+BA,The Boeing Co,NYSE,New York Stock Exchange,USA,6627,USD,US0970231058,S,Discrete dividends,Aerospace/Defense
+SPSC,SPS Commerce Inc,NASDAQ,NASDAQ Stocks Exchange,USA,22150,USD,US78463M1071,S,,Software
+LLY,Eli Lilly & Co,NYSE,New York Stock Exchange,USA,7891,USD,US5324571083,S,Discrete dividends,Pharmaceuticals
+TOL,TOLL BROTHERS INC,NYSE,New York Stock Exchange,USA,8999,USD,US8894781033,S,Discrete dividends,Home Builders
+TSM,Taiwan Semiconductor Manufacturing Co Ltd,NYSE,New York Stock Exchange,USA,9031,USD,US8740391003,S,Discrete dividends,Semiconductors
+VTRS,Viatris Inc,NASDAQ,NASDAQ Stocks Exchange,USA,26504,USD,US92556V1061,S,Discrete dividends,Pharmaceuticals
+CAT,Caterpillar Inc,NYSE,New York Stock Exchange,USA,6823,USD,US1491231015,S,Discrete dividends,Machinery-Constr&Mining
+GOLD,Barrick Gold Corp,NYSE,New York Stock Exchange,USA,6420,USD,CA0679011084,S,Discrete dividends,Mining
+GOLD,Randgold Resources Ltd,NASDAQ,NASDAQ Stocks Exchange,USA,18058,USD,US7523443098,S,Discrete dividends,Mining
+CMA,Comerica Inc,NYSE,New York Stock Exchange,USA,6945,USD,US2003401070,S,Discrete dividends,Banks
+HUBB,Hubbell Inc [class B],NYSE,New York Stock Exchange,USA,7624,USD,US4435106079,S,Discrete dividends,Electronics
+NVO,Novo Nordisk A/S,NYSE,New York Stock Exchange,USA,8298,USD,US6701002056,S,Discrete dividends,Pharmaceuticals
+VLO,Valero Energy Corp,NYSE,New York Stock Exchange,USA,9171,USD,US91913Y1001,S,Discrete dividends,Oil&Gas
+EEFT,EURONET SERVICES INC,NASDAQ,NASDAQ Stocks Exchange,USA,2372,USD,US2987361092,S,,Commercial Services
+TXN,Texas Instruments Inc,NASDAQ,NASDAQ Stocks Exchange,USA,9064,USD,US8825081040,S,Discrete dividends,Semiconductors
+DECK,DECKERS OUTDOOR CORP,NYSE,New York Stock Exchange,USA,2171,USD,US2435371073,S,,Apparel
+KBH,KB Home,NYSE,New York Stock Exchange,USA,7788,USD,US48666K1097,S,Discrete dividends,Home Builders
+LANC,Lancaster Colony Corp,NASDAQ,NASDAQ Stocks Exchange,USA,3649,USD,US5138471033,S,Discrete dividends,Food
+SBUX,Starbucks Corp,NASDAQ,NASDAQ Stocks Exchange,USA,5204,USD,US8552441094,S,Discrete dividends,Retail
+XBI,SPDR S&P Biotech ETF,NYSEArca,NYSE Arca Options,USA,18732,USD,US78464A8707,F,Implied yields,
+SNPS,SYNOPSYS INC,NASDAQ,NASDAQ Stocks Exchange,USA,5418,USD,US8716071076,S,,Software
+JBL,Jabil Inc,NYSE,New York Stock Exchange,USA,7746,USD,US4663131039,S,Discrete dividends,Electronics
+WBA,Walgreens Boots Alliance Inc,NASDAQ,NASDAQ Stocks Exchange,USA,9208,USD,US9314271084,S,Discrete dividends,Retail
+TT,TRANSTECHNOLOGY CORP,NYSE,New York Stock Exchange,USA,9039,USD,,S,Discrete dividends,Building Materials
+TT,Trane Technologies plc,NYSE,New York Stock Exchange,USA,7719,USD,IE00BK9ZQ967,S,Discrete dividends,Building Materials
+TT,Trane Inc,NYSE,New York Stock Exchange,USA,6570,USD,US8928931083,S,Discrete dividends,Building Materials
+MPC,Marathon Petroleum Corp,NYSE,New York Stock Exchange,USA,22067,USD,US56585A1025,S,Discrete dividends,Oil&Gas
+RACE,Ferrari NV,NYSE,New York Stock Exchange,USA,24471,USD,NL0011585146,S,Discrete dividends,Auto Manufacturers
+HAL,Halliburton Co,NYSE,New York Stock Exchange,USA,7532,USD,US4062161017,S,Discrete dividends,Oil&Gas Services
+KRE,SPDR S&P Regional Banking ETF,NYSEArca,NYSE Arca Options,USA,18864,USD,US78464A6982,F,Implied yields,
+DVN,Devon Energy Corp,NYSE,New York Stock Exchange,USA,186,USD,US25179M1036,S,Discrete dividends,Oil&Gas
+LIT,Global X Lithium & Battery Tech ETF,NYSEArca,NYSE Arca Options,USA,21748,USD,US37954Y8553,F,Implied yields,
+SLV,iShares Silver Trust,NYSEArca,NYSE Arca Options,USA,20181,USD,US46428Q1094,F,Implied yields,
+HQY,HealthEquity Inc,NASDAQ,NASDAQ Stocks Exchange,USA,23919,USD,US42226A1079,S,,Healthcare-Services
+WDAY,Workday Inc (A class),NASDAQ,NASDAQ Stocks Exchange,USA,22933,USD,US98138H1014,S,,Software
+RL,Ralph Lauren Corp,NYSE,New York Stock Exchange,USA,8615,USD,US7512121010,S,Discrete dividends,Apparel
+TXRH,Texas Roadhouse Inc,NASDAQ,NASDAQ Stocks Exchange,USA,18804,USD,US8826811098,S,Discrete dividends,Retail
+TDG,TransDigm Group Inc,NYSE,New York Stock Exchange,USA,19351,USD,US8936411003,S,,Aerospace/Defense
+MSFT,Microsoft Corp,NASDAQ,NASDAQ Stocks Exchange,USA,4111,USD,US5949181045,S,Discrete dividends,Software
+HSY,The Hershey Co,NYSE,New York Stock Exchange,USA,7615,USD,US4278661081,S,Discrete dividends,Food
+MMM,3M Co,NYSE,New York Stock Exchange,USA,8047,USD,US88579Y1010,S,Discrete dividends,Miscellaneous Manufactur
+KWEB,KraneShares CSI China Internet ETF,NYSEArca,NYSE Arca Options,USA,24024,USD,US5007673065,F,Implied yields,
+JCI,JOHNSON CONTROLS INC,NYSE,New York Stock Exchange,USA,7749,USD,US4783661071,S,Discrete dividends,Building Materials
+JCI,Johnson Controls International plc,NYSE,New York Stock Exchange,USA,9068,USD,IE00BY7QL619,S,Discrete dividends,Building Materials
+IDT,IDT Corp,NYSE,New York Stock Exchange,USA,18484,USD,US4489475073,S,Discrete dividends,Telecommunications
+EZA,iShares MSCI South Africa ETF,NYSEArca,NYSE Arca Options,USA,19416,USD,US4642867802,F,Implied yields,
+CMCSA,Comcast Corp,NASDAQ,NASDAQ Stocks Exchange,USA,1832,USD,US20030N1019,S,Discrete dividends,Media
+CRM,CORIMON C.A. A.D.S.,NYSE,New York Stock Exchange,USA,7013,USD,,S,Discrete dividends,Software
+CRM,Salesforce Inc,NYSE,New York Stock Exchange,USA,18316,USD,US79466L3024,S,Discrete dividends,Software
+MAR,Marriott International Inc/MD,NASDAQ,NASDAQ Stocks Exchange,USA,7950,USD,US5719032022,S,Discrete dividends,Lodging
+INTU,Intuit Inc,NASDAQ,NASDAQ Stocks Exchange,USA,3409,USD,US4612021034,S,Discrete dividends,Software
+AAPL,Apple Inc,NASDAQ,NASDAQ Stocks Exchange,USA,799,USD,US0378331005,S,Discrete dividends,Computers
+GWW,WW Grainger Inc,NYSE,New York Stock Exchange,USA,7527,USD,US3848021040,S,Discrete dividends,Distribution/Wholesale
+OIH,VanEck Oil Services ET,NYSEArca,NYSE Arca Options,USA,22282,USD,US92189H6071,F,Implied yields,
+TM,Toyota Motor Corp,NYSE,New York Stock Exchange,USA,9443,USD,US8923313071,S,Discrete dividends,Auto Manufacturers
+ADBE,Adobe Systems Inc,NASDAQ,NASDAQ Stocks Exchange,USA,883,USD,US00724F1012,S,Discrete dividends,Software
+BBY,Best Buy Co Inc,NYSE,New York Stock Exchange,USA,6643,USD,US0865161014,S,Discrete dividends,Retail
+SLB,Schlumberger Ltd,NYSE,New York Stock Exchange,USA,8772,USD,AN8068571086,S,Discrete dividends,Oil&Gas Services
+PFE,Pfizer Inc,NYSE,New York Stock Exchange,USA,8419,USD,US7170811035,S,Discrete dividends,Pharmaceuticals
+SU,Suncor Energy Inc,NYSE,New York Stock Exchange,USA,8857,USD,CA8672241079,S,Discrete dividends,Oil&Gas
+CSCO,Cisco Systems Inc,NASDAQ,NASDAQ Stocks Exchange,USA,2013,USD,US17275R1023,S,Discrete dividends,Telecommunications
+NEE,NextEra Energy Inc,NYSE,New York Stock Exchange,USA,7373,USD,US65339F1012,S,Discrete dividends,Electric
+USO,United States Oil Fund,NYSEArca,NYSE Arca Options,USA,19370,USD,US91232N2071,F,Implied yields,
+KAI,Kadant Inc,NYSE,New York Stock Exchange,USA,659,USD,US48282T1043,S,Discrete dividends,Machinery-Diversified
+EXPD,Expeditors International of Washington Inc,NYSE,New York Stock Exchange,USA,2550,USD,US3021301094,S,Discrete dividends,Transportation
+T,AT&T Inc,NYSE,New York Stock Exchange,USA,8679,USD,US00206R1023,S,Discrete dividends,Telecommunications
+T,AT T CORP,NYSE,New York Stock Exchange,USA,8889,USD,,S,Discrete dividends,Telecommunications
+TGT,Target Corp,NYSE,New York Stock Exchange,USA,10674,USD,US87612E1064,S,Discrete dividends,Retail
+MCK,McKesson Corp,NYSE,New York Stock Exchange,USA,7966,USD,US58155Q1031,S,Discrete dividends,Pharmaceuticals
+LNG,Cheniere Energy Inc,NYSE,New York Stock Exchange,USA,17575,USD,US16411R2085,S,Discrete dividends,Pipelines
+COP,Conocophillips,NYSE,New York Stock Exchange,USA,8374,USD,US20825C1045,S,Discrete dividends,Oil&Gas
+MCRI,Monarch Casino & Resort Inc,NASDAQ,NASDAQ Stocks Exchange,USA,3882,USD,US6090271072,S,Discrete dividends,Entertainment
+GGG,Graco Inc,NYSE,New York Stock Exchange,USA,7449,USD,US3841091040,S,Discrete dividends,Machinery-Diversified
+BNO,United States Brent Oil Fund LP,NYSEArca,NYSE Arca Options,USA,22048,USD,US91167Q1004,F,Implied yields,
+GXC,SPDR S&P China ETF,NYSEArca,NYSE Arca Options,USA,19281,USD,US78463X4007,F,Implied yields,
+GILD,Gilead Sciences Inc,NASDAQ,NASDAQ Stocks Exchange,USA,2896,USD,US3755581036,S,Discrete dividends,Biotechnology
+WDFC,WD-40 Co,NASDAQ,NASDAQ Stocks Exchange,USA,6196,USD,US9292361071,S,Discrete dividends,Household Products/Wares
+ABBV,AbbVie Inc,NYSE,New York Stock Exchange,USA,23003,USD,US00287Y1091,S,Discrete dividends,Pharmaceuticals
+HPQ,HP Inc,NYSE,New York Stock Exchange,USA,7635,USD,US40434L1052,S,Discrete dividends,Computers
+HD,The Home Depot Inc,NYSE,New York Stock Exchange,USA,7546,USD,US4370761029,S,Discrete dividends,Retail
+VZ,Verizon Communications Inc,NYSE,New York Stock Exchange,USA,11296,USD,US92343V1044,S,Discrete dividends,Telecommunications
+C,Citigroup Inc,NYSE,New York Stock Exchange,USA,6812,USD,US1729674242,S,Discrete dividends,Banks
+XOP,SPDR S&P Oil & Gas Exploration & Production ETF,NYSEArca,NYSE Arca Options,USA,18861,USD,US78468R5569,F,Implied yields,
+EWY,iShares MSCI South Korea Capped ETF,NYSEArca,NYSE Arca Options,USA,18048,USD,US4642867729,F,Implied yields,
+J,J Net Enterprises Inc,NYSE,New York Stock Exchange,USA,10660,USD,,S,,Engineering&Construction
+J,Jacobs Solutions Inc,NYSE,New York Stock Exchange,USA,7752,USD,US46982L1089,S,Discrete dividends,Engineering&Construction
+MA,Mastercard Inc,NYSE,New York Stock Exchange,USA,18850,USD,US57636Q1040,S,Discrete dividends,Diversified Finan Serv
+NTAP,NetApp Inc,NASDAQ,NASDAQ Stocks Exchange,USA,4348,USD,US64110D1046,S,Discrete dividends,Computers
+XOM,Exxon Mobil Corp,NYSE,New York Stock Exchange,USA,9480,USD,US30231G1022,S,Discrete dividends,Oil&Gas
+BAC,Bank of America Corp,NYSE,New York Stock Exchange,USA,6629,USD,US0605051046,S,Discrete dividends,Banks
+DOLE,Dole Food Company Inc.,NYSE,New York Stock Exchange,USA,20502,USD,US2566031017,S,,Agriculture
+DOLE,Dole plc,NYSE,New York Stock Exchange,USA,29894,USD,IE0003LFZ4U7,S,Discrete dividends,Agriculture
+WMT,Walmart Inc,NYSE,New York Stock Exchange,USA,9259,USD,US9311421039,S,Discrete dividends,Retail
+SAIC,Science Applications International Corp,NASDAQ,NASDAQ Stocks Exchange,USA,23363,USD,US8086251076,S,Discrete dividends,Computers
+MS,Morgan Stanley,NYSE,New York Stock Exchange,USA,8133,USD,US6174464486,S,Discrete dividends,Banks
+CVX,Chevron Corp,NYSE,New York Stock Exchange,USA,6908,USD,US1667641005,S,Discrete dividends,Oil&Gas
+V,Visa Inc,NYSE,New York Stock Exchange,USA,19746,USD,US92826C8394,S,Discrete dividends,Diversified Finan Serv
+V,Vivendi Universal ADS,NYSE,New York Stock Exchange,USA,15512,USD,,S,Discrete dividends,Diversified Finan Serv
+MOO,VanEck Agribusiness ETF,NYSEArca,NYSE Arca Options,USA,19562,USD,US92189F7006,F,Implied yields,
+MRK,Merck & Co Inc,NYSE,New York Stock Exchange,USA,8086,USD,US58933Y1055,S,Discrete dividends,Pharmaceuticals
+FDX,FedEx Corp,NYSE,New York Stock Exchange,USA,7310,USD,US31428X1063,S,Discrete dividends,Transportation
+GD,General Dynamics Corp,NYSE,New York Stock Exchange,USA,7427,USD,US3695501086,S,Discrete dividends,Aerospace/Defense
+LIN,LIN Media LLC,NYSE,New York Stock Exchange,USA,17966,USD,US5327711025,S,,Chemicals
+LIN,Linde PLC,NASDAQ,NASDAQ Stocks Exchange,USA,8550,USD,IE00BZ12WP82,S,Discrete dividends,Chemicals
+LIN,LINENS  N THINGS INC.,NYSE,New York Stock Exchange,USA,7887,USD,,S,,Chemicals
+EXC,Exelon Corp,NASDAQ,NASDAQ Stocks Exchange,USA,8410,USD,US30161N1019,S,Discrete dividends,Electric
+XLRE,Real Estate Select Sector SPDR Fund,NYSEArca,NYSE Arca Options,USA,24456,USD,US81369Y8600,F,Implied yields,
+IJR,iShares Core S&P Small-Cap ETF,NYSEArca,NYSE Arca Options,USA,17987,USD,US4642878049,F,Implied yields,
+IBB,iShares Biotechnology ETF,NASDAQ,NASDAQ Stocks Exchange,USA,17899,USD,US4642875565,F,Implied yields,
+TMUS,T-Mobile US Inc,NASDAQ,NASDAQ Stocks Exchange,USA,19337,USD,US8725901040,S,Discrete dividends,Telecommunications
+COST,Costco Wholesale Corp,NASDAQ,NASDAQ Stocks Exchange,USA,1950,USD,US22160K1051,S,Discrete dividends,Retail
+MO,Altria Group Inc,NYSE,New York Stock Exchange,USA,8065,USD,US02209S1033,S,Discrete dividends,Agriculture
+SNA,Snap-on Inc,NYSE,New York Stock Exchange,USA,8792,USD,US8330341012,S,Discrete dividends,Hand/Machine Tools
+MCD,McDonald's Corp,NYSE,New York Stock Exchange,USA,7961,USD,US5801351017,S,Discrete dividends,Retail
+JPM,JPMorgan Chase & Co,NYSE,New York Stock Exchange,USA,7776,USD,US46625H1005,S,Discrete dividends,Banks
+UNH,Unitedhealth Group Inc,NYSE,New York Stock Exchange,USA,9110,USD,US91324P1021,S,Discrete dividends,Healthcare-Services
+RSG,Republic Services Inc,NYSE,New York Stock Exchange,USA,8649,USD,US7607591002,S,Discrete dividends,Environmental Control
+FEZ,SPDR Euro STOXX 50 ETF,NYSEArca,NYSE Arca Options,USA,19389,USD,US78463X2027,F,Implied yields,
+PEP,PepsiCo Inc,NASDAQ,NASDAQ Stocks Exchange,USA,8415,USD,US7134481081,S,Discrete dividends,Beverages
+EWQ,iShares MSCI France ETF,NYSEArca,NYSE Arca Options,USA,238,USD,US4642867075,F,Implied yields,
+EWG,iShares MSCI Germany ETF,NYSEArca,NYSE Arca Options,USA,228,USD,US4642868065,F,Implied yields,
+UL,Unilever PLC,NYSE,New York Stock Exchange,USA,9104,USD,US9047677045,S,Discrete dividends,Cosmetics/Personal Care
+IAU,iShares COMEX Gold Trust,NYSEArca,NYSE Arca Options,USA,20180,USD,US4642852044,F,Implied yields,
+GLD,SPDR Gold Trust,NYSEArca,NYSE Arca Options,USA,18838,USD,US78463V1070,F,Implied yields,
+KMI,Kinder Morgan Inc/DE,NYSE,New York Stock Exchange,USA,21822,USD,US49456B1017,S,Discrete dividends,Pipelines
+KMI,KINDER MORGAN,NYSE,New York Stock Exchange,USA,15637,USD,US49455P1012,S,Discrete dividends,Pipelines
+SPY,SPDR S&P 500 ETF Trust,NYSEArca,NYSE Arca Options,USA,627,USD,US78462F1030,F,Implied yields,
+JNJ,Johnson & Johnson,NYSE,New York Stock Exchange,USA,7769,USD,US4781601046,S,Discrete dividends,Pharmaceuticals
+VEA,Vanguard FTSE Developed Markets ETF,NYSEArca,NYSE Arca Options,USA,19502,USD,US9219438580,F,Implied yields,
+KO,The Coca-Cola Co,NYSE,New York Stock Exchange,USA,7819,USD,US1912161007,S,Discrete dividends,Beverages
+EFA,iShares MSCI EAFE ETF,NYSEArca,NYSE Arca Options,USA,18045,USD,US4642874659,F,Implied yields,
+TLT,iShares 20+ Year Treasury Bond ETF,NYSEArca,NYSE Arca Options,USA,18136,USD,US4642874329,F,Implied yields,
+VYM,VOYAGER MINN MUNI INCM FD3 INC,NYSEAN,NYSE Alternext Equities,USA,752,USD,,S,Discrete dividends,
+VYM,Vanguard High Dividend Yield ETF,NYSEArca,NYSE Arca Options,USA,19081,USD,US9219464065,F,Implied yields,
+PG,The Procter & Gamble Co,NYSE,New York Stock Exchange,USA,8425,USD,US7427181091,S,Discrete dividends,Cosmetics/Personal Care
