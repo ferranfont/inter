@@ -153,9 +153,14 @@ plt.tight_layout()  # Adjust layout so that labels do not overlap
 plt.show()
 
 
-# In[20]:
+# In[22]:
 
 
+#subir a github automaticamente
+# ejecutar esto en el CRM
+#> git config --global credential.helper cache
+# Set the cache to timeout after 1 hour (3600 seconds); adjust as needed
+#> git config --global credential.helper 'cache --timeout=3600'
 import os
 import subprocess
 
@@ -181,16 +186,12 @@ def setup_git_and_push(notebook_name, repo_url):
     subprocess.run("git push -u origin master", shell=True, check=True)
 
 # Example usage:
-setup_git_and_push('my_notebook', 'https://github.com/ferranfont/inter')
+setup_git_and_push('SPY_zero_DTE', 'https://github.com/ferranfont/inter')
 
 
 # In[8]:
 
 
-# ejecutar esto en el CRM
-#> git config --global credential.helper cache
-# Set the cache to timeout after 1 hour (3600 seconds); adjust as needed
-#> git config --global credential.helper 'cache --timeout=3600'
 import os
 import subprocess
 
