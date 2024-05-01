@@ -153,7 +153,7 @@ plt.tight_layout()  # Adjust layout so that labels do not overlap
 plt.show()
 
 
-# In[31]:
+# In[33]:
 
 
 import os
@@ -166,7 +166,7 @@ def notebook_to_script(notebook_name, repo_url):
     try:
         subprocess.run(convert_command, shell=True, check=True)
     except subprocess.CalledProcessError as e:
-        print("Failed to convert notebook:", e)
+        print("Failed to convert notebook:", e.stderr.decode() if e.stderr else "No error details available.")
         return  # Exit if conversion fails
 
     if not os.path.exists('.git'):
@@ -189,14 +189,15 @@ def notebook_to_script(notebook_name, repo_url):
     commit_message = "Add script generated from Jupyter Notebook"
     subprocess.run(f'git commit -m "{commit_message}"', shell=True, check=True)
     
-    # Change here to push to 'main' instead of 'master'
+    # Push to the 'main' branch instead of 'master'
     try:
-        subprocess.run("git push -u origin main", shell=True, check=True)
+        subprocess.run("git push -u origin main", shell=True, check=True, capture_output=True, text=True)
     except subprocess.CalledProcessError as e:
-        print("Failed to push to GitHub:", e.stderr.decode())
+        print("Failed to push to GitHub:", e.stderr if e.stderr else "No error details available.")
 
 # Usage example commented out
 notebook_to_script('SPY_zero_DTE', 'https://github.com/ferranfont/inter.git')
+
 
 
 # In[ ]:
