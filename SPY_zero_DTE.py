@@ -153,6 +153,12 @@ plt.tight_layout()  # Adjust layout so that labels do not overlap
 plt.show()
 
 
+# In[ ]:
+
+
+
+
+
 # In[22]:
 
 
@@ -189,56 +195,22 @@ def setup_git_and_push(notebook_name, repo_url):
 setup_git_and_push('SPY_zero_DTE', 'https://github.com/ferranfont/inter')
 
 
-# In[8]:
+# In[ ]:
 
 
+
+
+
+# In[27]:
+
+
+#subir a github automaticamente
+# ejecutar esto en el CRM
+#> git config --global credential.helper cache
+# Set the cache to timeout after 1 hour (3600 seconds); adjust as needed
+#> git config --global credential.helper 'cache --timeout=3600'
 import os
 import subprocess
-
-def notebook_to_script(notebook_name, repo_url):
-    script_name = f"{notebook_name}.py"
-    convert_command = f"jupyter nbconvert --to script {notebook_name}.ipynb"
-    
-    try:
-        subprocess.run(convert_command, shell=True, check=True)
-    except subprocess.CalledProcessError as e:
-        print("Failed to convert notebook:", e)
-        return  # Exit if conversion fails
-
-    if not os.path.exists('.git'):
-        subprocess.run("git init", shell=True, check=True)
-    
-    try:
-        subprocess.run(f"git remote add origin {repo_url}", shell=True, check=True)
-    except subprocess.CalledProcessError:
-        print("Remote 'origin' already exists, resetting to new URL")
-        subprocess.run(f"git remote set-url origin {repo_url}", shell=True, check=True)
-
-    # Displaying remote URLs
-    result = subprocess.run("git remote -v", shell=True, check=True, capture_output=True, text=True)
-    print("Configured remote URLs:", result.stdout)
-    
-    subprocess.run(f"git add {script_name}", shell=True, check=True)
-    
-    commit_message = "Add script generated from Jupyter Notebook"
-    subprocess.run(f'git commit -m "{commit_message}"', shell=True, check=True)
-    
-    try:
-        subprocess.run("git push -u origin master", shell=True, check=True)
-    except subprocess.CalledProcessError as e:
-        print("Failed to push to GitHub:", e.stderr.decode())
-
-# Usage example commented out
-notebook_to_script('SPY_zero_DTE', 'https://github.com/ferranfont/inter.git')
-
-
-# In[15]:
-
-
-import os
-import subprocess
-
-
 
 def notebook_to_script(notebook_name, repo_url):
     script_name = f"{notebook_name}.py"
@@ -281,88 +253,52 @@ def notebook_to_script(notebook_name, repo_url):
 
 
 
-# In[18]:
+# In[28]:
 
 
+import os
+import subprocess
 
+def setup_git_and_push(notebook_name, repo_url):
+    script_name = f"{notebook_name}.py"
+    convert_command = f"jupyter nbconvert --to script {notebook_name}.ipynb"
+    
+    try:
+        subprocess.run(convert_command, shell=True, check=True)
+    except subprocess.CalledProcessError as e:
+        print("Failed to convert notebook:", e)
+        return  # Exit if conversion fails
+
+    if not os.path.exists('.git'):
+        subprocess.run("git init", shell=True, check=True)
+    
+    # Check if the correct remote is set, if not set it or reset it
+    set_remote_command = f"git remote add origin {repo_url} || git remote set-url origin {repo_url}"
+    subprocess.run(set_remote_command, shell=True, check=True)
+
+    # Add, commit, and push changes to the main branch
+    subprocess.run(f"git add {script_name}", shell=True, check=True)
+    subprocess.run('git commit -m "Add converted script"', shell=True, check=True)
+    subprocess.run("git push -u origin main", shell=True, check=True)  # Push to 'main' instead of 'master'
+
+# Example usage:
+setup_git_and_push('my_notebook', 'https://github.com/ferranfont/inter')
 
 
 # In[6]:
 
 
-import os
-import subprocess
 
-def notebook_to_script(notebook_name, repo_url):
-    # Convert notebook to Python script
-    convert_command = f"jupyter nbconvert --to script {notebook_name}.ipynb"
-    subprocess.run(convert_command, shell=True, check=True)
-    
-    script_name = f"{notebook_name}.py"
-    
-    # Initialize git if not already a repo
-    if not os.path.exists('.git'):
-        subprocess.run("git init", shell=True, check=True)
-    
-    # Ensure the remote URL is set only if it's not already set
-    try:
-        subprocess.run("git remote add origin {repo_url}", shell=True, check=True)
-    except subprocess.CalledProcessError:
-        # If the remote already exists, it will throw an error
-        pass
-    
-    # Add the script to the staging area
-    subprocess.run(f"git add {script_name}", shell=True, check=True)
-    
-    # Commit the script
-    commit_message = "Add script generated from Jupyter Notebook"
-    subprocess.run(f'git commit -m "{commit_message}"', shell=True, check=True)
-    
-    # Push the script to GitHub
-    subprocess.run("git push -u origin master", shell=True, check=True)
-
-# Usage example commented out
-notebook_to_script('SPY_zero_DTE', 'https://github.com/ferranfont/inter.git')
 
 
 # In[2]:
 
 
-import os
-import subprocess
 
-def notebook_to_script(notebook_name, repo_url):
-    # Convert notebook to Python script
-    convert_command = f"jupyter nbconvert --to script {notebook_name}.ipynb"
-    subprocess.run(convert_command, shell=True, check=True)
-    
-    script_name = f"{notebook_name}.py"
-    
-    # Initialize git if not already a repo
-    if not os.path.exists('.git'):
-        subprocess.run("git init", shell=True, check=True)
-    
-    # Set git remote repository
-    subprocess.run(f"git remote add origin {repo_url}", shell=True, check=True)
-
-    # Add the script to the staging area
-    subprocess.run(f"git add {SPY_zero_DTE}", shell=True, check=True)
-    
-    # Commit the script
-    commit_message = "Add script generated from Jupyter Notebook"
-    subprocess.run(f'git commit -m "{commit_message}"', shell=True, check=True)
-    
-    # Push the script to GitHub
-    subprocess.run("git push -u origin master", shell=True, check=True)
-
-# Usage
-# notebook_to_script('my_notebook', 'https://github.com/myusername/myrepository.git')
 
 
 # In[3]:
 
 
-# Example usage: Adjust 'notebook_name' to the name of your Jupyter Notebook
-# and 'repo_url' to your repository's URL.
-notebook_to_script('inter', 'https://github.com/ferranfont/myrepository.git')
+
 
