@@ -153,6 +153,62 @@ plt.tight_layout()  # Adjust layout so that labels do not overlap
 plt.show()
 
 
+# In[7]:
+
+
+subprocess.run("git remote -v", shell=True, check=True)
+
+
+# In[8]:
+
+
+import os
+import subprocess
+
+def notebook_to_script(notebook_name, repo_url):
+    script_name = f"{notebook_name}.py"
+    convert_command = f"jupyter nbconvert --to script {notebook_name}.ipynb"
+    
+    try:
+        subprocess.run(convert_command, shell=True, check=True)
+    except subprocess.CalledProcessError as e:
+        print("Failed to convert notebook:", e)
+        return  # Exit if conversion fails
+
+    if not os.path.exists('.git'):
+        subprocess.run("git init", shell=True, check=True)
+    
+    try:
+        subprocess.run(f"git remote add origin {repo_url}", shell=True, check=True)
+    except subprocess.CalledProcessError:
+        print("Remote 'origin' already exists, resetting to new URL")
+        subprocess.run(f"git remote set-url origin {repo_url}", shell=True, check=True)
+
+    # Displaying remote URLs
+    result = subprocess.run("git remote -v", shell=True, check=True, capture_output=True, text=True)
+    print("Configured remote URLs:", result.stdout)
+    
+    subprocess.run(f"git add {script_name}", shell=True, check=True)
+    
+    commit_message = "Add script generated from Jupyter Notebook"
+    subprocess.run(f'git commit -m "{commit_message}"', shell=True, check=True)
+    
+    try:
+        subprocess.run("git push -u origin master", shell=True, check=True)
+    except subprocess.CalledProcessError as e:
+        print("Failed to push to GitHub:", e.stderr.decode())
+
+# Usage example commented out
+notebook_to_script('SPY_zero_DTE', 'https://github.com/ferranfont/inter.git')
+
+
+# In[10]:
+
+
+git config --global credential.helper
+
+
+
 # In[ ]:
 
 
