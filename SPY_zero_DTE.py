@@ -159,7 +159,7 @@ plt.show()
 
 
 
-# In[5]:
+# In[6]:
 
 
 import os
@@ -194,7 +194,7 @@ def notebook_to_script(notebook_name, repo_url):
     subprocess.run("git push -u origin master", shell=True, check=True)
 
 # Usage example commented out
-notebook_to_script('inter', 'https://github.com/ferranfont/inter.git')
+notebook_to_script('SPY_zero_DTE', 'https://github.com/ferranfont/inter.git')
 
 
 # In[2]:
