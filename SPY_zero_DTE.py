@@ -153,15 +153,44 @@ plt.tight_layout()  # Adjust layout so that labels do not overlap
 plt.show()
 
 
-# In[7]:
+# In[20]:
 
 
-subprocess.run("git remote -v", shell=True, check=True)
+import os
+import subprocess
+
+# Initialize git, set remote repository, and push changes
+def setup_git_and_push(notebook_name, repo_url):
+    script_name = f"{notebook_name}.py"
+    convert_command = f"jupyter nbconvert --to script {notebook_name}.ipynb"
+    
+    # Convert Jupyter notebook to Python script
+    subprocess.run(convert_command, shell=True, check=True)
+    
+    # Initialize git repository if it doesn't exist
+    if not os.path.exists('.git'):
+        subprocess.run("git init", shell=True, check=True)
+    
+    # Check if the correct remote is set, if not set it or reset it
+    set_remote_command = f"git remote add origin {repo_url} || git remote set-url origin {repo_url}"
+    subprocess.run(set_remote_command, shell=True, check=True)
+
+    # Add, commit, and push changes
+    subprocess.run(f"git add {script_name}", shell=True, check=True)
+    subprocess.run('git commit -m "Add converted script"', shell=True, check=True)
+    subprocess.run("git push -u origin master", shell=True, check=True)
+
+# Example usage:
+setup_git_and_push('my_notebook', 'https://github.com/ferranfont/inter')
 
 
 # In[8]:
 
 
+# ejecutar esto en el CRM
+#> git config --global credential.helper cache
+# Set the cache to timeout after 1 hour (3600 seconds); adjust as needed
+#> git config --global credential.helper 'cache --timeout=3600'
 import os
 import subprocess
 
@@ -202,11 +231,13 @@ def notebook_to_script(notebook_name, repo_url):
 notebook_to_script('SPY_zero_DTE', 'https://github.com/ferranfont/inter.git')
 
 
-# In[13]:
+# In[15]:
 
 
 import os
 import subprocess
+
+
 
 def notebook_to_script(notebook_name, repo_url):
     script_name = f"{notebook_name}.py"
@@ -221,11 +252,17 @@ def notebook_to_script(notebook_name, repo_url):
     if not os.path.exists('.git'):
         subprocess.run("git init", shell=True, check=True)
     
-    try:
-        subprocess.run(f"git remote add origin {repo_url}", shell=True, check=True)
-    except subprocess.CalledProcessError:
-        print("Remote 'origin' already exists, resetting to new URL")
-        subprocess.run(f"git remote set-url origin {repo_url}", shell=True, check=True)
+    # Check current remote URL
+    existing_url = subprocess.run("git remote get-url origin", shell=True, capture_output=True, text=True)
+    if existing_url.returncode == 0 and existing_url.stdout.strip() == repo_url:
+        print("Remote 'origin' is already set to the correct URL.")
+    else:
+        if existing_url.returncode == 0:
+            print("Remote 'origin' already exists, resetting to new URL")
+            subprocess.run(f"git remote set-url origin {repo_url}", shell=True, check=True)
+        else:
+            print("Adding new remote 'origin'.")
+            subprocess.run(f"git remote add origin {repo_url}", shell=True, check=True)
 
     subprocess.run(f"git add {script_name}", shell=True, check=True)
     
@@ -237,12 +274,13 @@ def notebook_to_script(notebook_name, repo_url):
     except subprocess.CalledProcessError as e:
         print("Failed to push to GitHub:", e.stderr.decode())
 
-# Example usage (uncomment the next line in your script to use it)
-notebook_to_script('SPY_zero_DTE', 'https://github.com/ferranfont/inter.git')
+# Usage example commented out
+# notebook_to_script('SPY_zero_DTE', 'https://github.com/ferranfont/inter.git')
 
 
 
-# In[ ]:
+
+# In[18]:
 
 
 
